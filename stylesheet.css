@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("link href=https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Caveat', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.top-wrapper {
+    padding: 190px 0px 120px 0px;
+    background-image: url(gambarlatar.jpg);
+    background-size: cover;
+    color: #ffffff;
+    font-family:'Audiowide', cursive; 
+    text-align: center;
+    animation-name: fade-in;    
+    animation-duration: 3s;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; margin-left: -250px; }
+    100% { opacity: 1; margin-left: 0; }
+}
+
+.top-wrapper h1 {
+    opacity: 0.5;
+    font-size: 65px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.9;
+    margin-bottom: 3px;
+}
+  
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+  
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.login {
+    background-color: #008080;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 6px 12px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+  
+.btn:hover {
+    opacity: 1;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color:  #008080;
+    opacity: 0.8;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-family:'Audiowide', cursive; 
+    color: #fffaf7;
+}
+
+.header-left {
+    float: left;
+    margin-top: 10px;
+}
+  
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+  
+.header-right a:hover {
+    background-color: #00464b;
+}
+
+.contents{
+    height: 500px;
+    margin-top: 50px;
+}
+
+.heading {
+    border-bottom: 2px solid #acabb0;
+    padding-bottom:15px;
+    margin-bottom:50px;
+}
+
+.daftar-jenjang{
+    float:left;
+    width:33%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    animation-name: fade-in;    
+    animation-duration: 3s;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; margin-left: -250px; }
+    100% { opacity: 1; margin-left: 0; }
+}
+
+.jenjang {
+    position: relative;
+}
+
+.icon-jenjang {
+    border-radius: 20px;
+}
+
+
+.txt-contents {
+    width: 90%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.partners{
+    height: 500px;
+    margin-top: 50px;
+}
+.daftar-partner{
+    float:left;
+    width:33%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.partner {
+    position: relative;
+}
+
+.icon-partner {
+    border-radius: 20px;
+}
+
+.partner p{
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    color: #00121b;
+ 
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    background: #00464b;
+    display: inline-block;
+    margin-top: 30px;
+}
+  
+
+.inner-footer {
+    width: 95%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+  
+.footer-items {
+    width: 25%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+  
+.footer-items h2 {
+    margin: 10px 0px;
+    color: grey;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 100px;
+}
+  
+.border {
+    height: 2px;
+    width: 40px;
+    background: #008132;
+}
+  
+.footer-items ul {
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+  
+.footer-items ul a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+  
+.footer-items ul a:hover {
+    color: #008132;
+}
+  
+.footer-items ul li {
+    margin-right: 10px;
+    width: 200px;
+    height: 25px;
+}
