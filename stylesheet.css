@@ -40,7 +40,7 @@ a {
     font-family:'Audiowide', cursive; 
     text-align: center;
     animation-name: fade-in;    
-    animation-duration: 3s;
+    animation-duration: 1.5s;
 }
 
 @keyframes fade-in {
